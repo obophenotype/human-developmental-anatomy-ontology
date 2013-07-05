@@ -5,6 +5,7 @@ auto-generated-by: OBO-Edit 2.1.1-beta7
 default-namespace: anatomical_entity_ontology
 remark: this version corrects the namespace and includes some flybase alt_IDs
 typeref: anatomical_entity_ontology
+ontology: aeo
 
 [Term]
 id: AEO:0000013

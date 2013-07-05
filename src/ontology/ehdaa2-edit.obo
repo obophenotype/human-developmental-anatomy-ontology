@@ -5,6 +5,7 @@ auto-generated-by: OBO-Edit 2.1.1-beta7
 default-namespace: anatomical_entity_ontology
 remark: Jonathon Bard Human Ontology
 remark: this version corrects the namespace and includes some flybase alt_IDs
+ontology: ehdaa2
 
 [Term]
 id: AEO:0000013
@@ -27560,67 +27561,48 @@ creation_date: 2013-01-09T04:29:18Z
 [Typedef]
 id: attached_to
 name: attached_to
-
-[Typedef]
-id: branch_of
-name: branch_of
-
-[Typedef]
-id: derives_from
-name: derives_from
+xref: RO:0002371 ! attached to
 
 [Typedef]
 id: develops_from
 name: develops_from
 is_transitive: true
+xref: RO:0002202
 
 [Typedef]
 id: develops_in
 name: develops_in
-
-[Typedef]
-id: encloses
-name: encloses
+xref: RO:0002226
 
 [Typedef]
 id: ends_at
 name: ends_at
-
-[Typedef]
-id: endStage
-name: endStage
+xref: BFO:0000069 ! ceases to exist during
 
 [Typedef]
 id: has_part
 name: has_part
 is_transitive: true
-
-[Typedef]
-id: has_start
-name: has_start
+xref: BFO:0000051
 
 [Typedef]
 id: located_in
 name: located_in
+xref: RO:0001025
 
 [Typedef]
 id: part_of
 name: part_of
 is_transitive: true
+xref: BFO:0000050
 
 [Typedef]
 id: starts_at
 name: starts_at
-
-[Typedef]
-id: startStage
-name: startStage
+xref: BFO:0000068 ! begins to exist during
 
 [Typedef]
 id: surrounds
 name: surrounds
-
-[Typedef]
-id: type
-name: type
+xref: RO:0002221 ! surrounds
 
