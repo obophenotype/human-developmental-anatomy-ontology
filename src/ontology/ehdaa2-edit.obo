@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 24:04:2013 13:55
+date: 04:07:2013 20:21
 saved-by: jonathanbard
 auto-generated-by: OBO-Edit 2.1.1-beta7
 default-namespace: anatomical_entity_ontology
@@ -35,7 +35,6 @@ id: AEO:0000080
 name: foramen
 namespace: http\://www.xspan.org/obo.owl#
 def: "A hole in a tissue." [AEO:JB]
-is_a: AEO:0000192 ! anatomical surface feature
 is_a: CARO:0000010 ! anatomical surface
 
 [Term]
@@ -492,7 +491,6 @@ namespace: http\://www.xspan.org/obo.owl#
 alt_id: UBERON:0006846
 alt_id: ZFA:0001690
 def: "A furrow or an incomplete tube." [AEO:JB]
-is_a: AEO:0000192 ! anatomical surface feature
 is_a: CARO:0000010 ! anatomical surface
 
 [Term]
@@ -500,7 +498,6 @@ id: AEO:0000162
 name: ridge
 namespace: http\://www.xspan.org/obo.owl#
 def: "A raised strip of tissue." [AEO:JB]
-is_a: AEO:0000192 ! anatomical surface feature
 is_a: CARO:0000010 ! anatomical surface
 
 [Term]
@@ -671,8 +668,7 @@ name: anatomical surface feature
 namespace: http\://www.xspan.org/obo.owl#
 def: "Non-material anatomical entity of two dimensions, that is demarcated by anatomical lines or points on the external or internal surfaces of anatomical structures." [CARO:MAH]
 synonym: "anatomical surface." RELATED []
-is_a: CARO:0000007 ! immaterial anatomical entity
-is_a: CARO:0000010 ! anatomical surface
+is_obsolete: true
 
 [Term]
 id: AEO:0000193
@@ -770,7 +766,6 @@ id: AEO:0000204
 name: pit
 namespace: http\://www.xspan.org/obo.owl#
 def: "An roughly circular indentation in a surface." [AEO:JB]
-is_a: AEO:0000192 ! anatomical surface feature
 is_a: CARO:0000010 ! anatomical surface
 
 [Term]
@@ -778,7 +773,6 @@ id: AEO:0000205
 name: protuberance
 namespace: http\://www.xspan.org/obo.owl#
 def: "A roughly circular bulge in a surface." [AEO:JB]
-is_a: AEO:0000192 ! anatomical surface feature
 is_a: CARO:0000010 ! anatomical surface
 
 [Term]
@@ -6181,11 +6175,11 @@ relationship: starts_at CS16 ! CS16
 id: EHDAA2:0000550
 name: foramen caecum
 namespace: human_developmental_anatomy
-is_a: AEO:0000115 ! epithelial sac
+is_a: AEO:0000204 ! pit
 relationship: develops_from EHDAA2:0000075 ! 3rd arch endoderm
 relationship: ends_at CS20 ! CS20
-relationship: part_of EHDAA2:0002028 ! thyroid
-relationship: starts_at CS13 ! CS13
+relationship: located_in EHDAA2:0004598 ! tongue epithelium
+relationship: starts_at CS18 ! CS18
 
 [Term]
 id: EHDAA2:0000551
@@ -7261,7 +7255,6 @@ namespace: human_developmental_anatomy
 is_a: AEO:0000215 ! open cavity
 relationship: develops_in EHDAA2:0001446 ! peritoneal cavity lumen
 relationship: ends_at CS20 ! CS20
-relationship: located_in EHDAA2:0000267 ! coelomic cavity lumen
 relationship: located_in EHDAA2:0004738 ! greater sac
 relationship: starts_at CS13 ! CS13
 
@@ -9507,7 +9500,7 @@ relationship: starts_at CS14 ! CS14
 id: EHDAA2:0001003
 name: liver left lobe primitive bare area
 namespace: human_developmental_anatomy
-is_a: AEO:0000192 ! anatomical surface feature
+is_a: CARO:0000010 ! anatomical surface
 relationship: ends_at CS20 ! CS20
 relationship: located_in EHDAA2:0001000 ! liver left lobe
 relationship: starts_at CS17 ! CS17
@@ -9588,7 +9581,7 @@ relationship: starts_at CS14 ! CS14
 id: EHDAA2:0001011
 name: liver right lobe primitive bare area
 namespace: human_developmental_anatomy
-is_a: AEO:0000192 ! anatomical surface feature
+is_a: CARO:0000010 ! anatomical surface
 relationship: ends_at CS20 ! CS20
 relationship: located_in EHDAA2:0001008 ! liver right lobe
 relationship: starts_at CS17 ! CS17
@@ -17537,10 +17530,9 @@ id: EHDAA2:0002016
 name: thryoglossal duct
 namespace: human_developmental_anatomy
 is_a: AEO:0000216 ! epithelial cord
-relationship: develops_from EHDAA2:0002033 ! thyroid primordium
 relationship: ends_at CS16 ! CS16
 relationship: part_of EHDAA2:0002028 ! thyroid
-relationship: starts_at CS13 ! CS13
+relationship: starts_at CS14 ! CS14
 
 [Term]
 id: EHDAA2:0002017
@@ -26142,7 +26134,6 @@ namespace: human_developmental_anatomy
 is_a: AEO:0000111 ! mesothelium
 relationship: develops_from EHDAA2:0001447 ! peritoneal cavity lining
 relationship: ends_at CS20 ! CS20
-relationship: located_in EHDAA2:0000267 ! coelomic cavity lumen
 relationship: part_of EHDAA2:0004554 ! lesser sac
 relationship: starts_at CS13 ! CS13
 
@@ -26151,7 +26142,7 @@ id: EHDAA2:0004558
 name: lesser sac cavity
 namespace: human_developmental_anatomy
 is_a: AEO:0000215 ! open cavity
-relationship: develops_in EHDAA2:0001446 ! peritoneal cavity lumen
+relationship: develops_in EHDAA2:0000267 ! coelomic cavity lumen
 relationship: ends_at CS20 ! CS20
 relationship: located_in EHDAA2:0004554 ! lesser sac
 relationship: starts_at CS13 ! CS13
