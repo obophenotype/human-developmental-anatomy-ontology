@@ -1,22 +1,24 @@
 format-version: 1.2
+data-version: releases/2013-07-24
 date: 24:07:2013 20:23
 saved-by: jonathanbard
 auto-generated-by: OBO-Edit 2.2
 default-namespace: anatomical_entity_ontology
 remark: Jonathon Bard Human Ontology
 remark: this version corrects the namespace and includes some flybase alt_IDs
+ontology: ehdaa2-edit
 
 [Term]
 id: AEO:0000013
 name: single-cell tissue
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Anatomical structure composed of a single cell." [CARO:MAH]
 is_a: CARO:0000043 ! simple tissue
 
 [Term]
 id: AEO:0000078
 name: lumen of tube
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0005082
 def: "The inner space within a tube." [AEO:JB]
 synonym: "tube lumen" RELATED []
@@ -25,7 +27,7 @@ is_a: AEO:0000221 ! open anatomical space
 [Term]
 id: AEO:0000079
 name: lumen of epithelial sac
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A small cavity bounded by an epithelium." [AEO:JB]
 synonym: "cavity of vesicle" RELATED []
 is_a: AEO:0000222 ! enclosed anatomical space
@@ -33,28 +35,28 @@ is_a: AEO:0000222 ! enclosed anatomical space
 [Term]
 id: AEO:0000080
 name: foramen
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A hole in a tissue." [AEO:JB]
 is_a: CARO:0000010 ! anatomical surface
 
 [Term]
 id: AEO:0000081
 name: matrix-based tissue
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A tissue whose predominant feature is extracellular matrix which may or may not be highly hydrated or calcified." [AEO:JB]
 is_a: CARO:0000043 ! simple tissue
 
 [Term]
 id: AEO:0000082
 name: bone
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Ossified structure that is predominantly extracellular matrix and forms part of the support system of the body." [AEO:JB]
 is_a: CARO:0000055 ! multi-tissue structure
 
 [Term]
 id: AEO:0000083
 name: endochondral bone
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Bone that is preformed in cartilage." [AEO:JB, VAO:0000145]
 is_a: AEO:0000082 ! bone
 relationship: has_part CL:0000058 ! chondroblast
@@ -65,7 +67,7 @@ relationship: part_of AEO:0000168 ! skeletal system
 [Term]
 id: AEO:0000085
 name: membrane bone
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Bone that forms directly from mesenchyme." [AEO:JB, VAO:0000023]
 is_a: AEO:0000082 ! bone
 relationship: has_part CL:0000062 ! osteoblast
@@ -74,7 +76,7 @@ relationship: part_of AEO:0000168 ! skeletal system
 [Term]
 id: AEO:0000086
 name: sesamoid bone
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An endochondral bone that forms within tendenous or ligamentous matrix." [AEO:JB, VAO:0000137]
 is_a: AEO:0000083 ! endochondral bone
 relationship: has_part CL:0000058 ! chondroblast
@@ -84,7 +86,7 @@ relationship: part_of AEO:0000168 ! skeletal system
 [Term]
 id: AEO:0000087
 name: cartilage
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Dense connective tissue made primarily of type II collagen." [AEO:JB, VAO:0000040]
 is_a: AEO:0000081 ! matrix-based tissue
 relationship: part_of AEO:0000168 ! skeletal system
@@ -92,7 +94,7 @@ relationship: part_of AEO:0000168 ! skeletal system
 [Term]
 id: AEO:0000090
 name: ligament
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A strap of predominantly extracellular matrix connecting two bones." [AEO:JB]
 is_a: AEO:0000081 ! matrix-based tissue
 relationship: has_part CL:0000057 ! fibroblast
@@ -102,7 +104,7 @@ relationship: part_of AEO:0000168 ! skeletal system
 [Term]
 id: AEO:0000091
 name: tendon
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A strap of predominantly extracellular matrix connecting a muscle to a bone." [AEO:JB]
 is_a: AEO:0000081 ! matrix-based tissue
 relationship: has_part CL:0000057 ! fibroblast
@@ -112,7 +114,7 @@ relationship: part_of AEO:0000168 ! skeletal system
 [Term]
 id: AEO:0000092
 name: aponeurosis
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A sheet of extracellular matrix." [AEO:JB]
 is_a: AEO:0000081 ! matrix-based tissue
 relationship: has_part CL:0000327 ! extracellular matrix secreting cell
@@ -121,7 +123,7 @@ relationship: has_part CL:0002320 ! connective tissue cell
 [Term]
 id: AEO:0000093
 name: non-connected functional system
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: FBbt:00007278
 def: "An anatomical group whose component structures share a common function." [AEO:JB]
 is_a: CARO:0000041 ! anatomical cluster
@@ -129,7 +131,7 @@ is_a: CARO:0000041 ! anatomical cluster
 [Term]
 id: AEO:0000094
 name: sense organ
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: FBbt:00005155
 def: "Multicellular anatomical structure with largely bona fide boundary that transduces some sensory stimulus to the nervous system." [AEO:JB]
 is_a: CARO:0000024 ! compound organ
@@ -137,21 +139,21 @@ is_a: CARO:0000024 ! compound organ
 [Term]
 id: AEO:0000095
 name: fluid-based anatomical entity
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Fluid anatomical entity containing cells." [AEO:JB]
 is_a: CARO:0000055 ! multi-tissue structure
 
 [Term]
 id: AEO:0000096
 name: gland
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A multi-tissue structure that produces a secretion for use elsewhere in the body." [AEO:JB]
 is_a: CARO:0000055 ! multi-tissue structure
 
 [Term]
 id: AEO:0000097
 name: ducted gland
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A gland that releases its secretion through a duct." [AEO:JB]
 synonym: "exocrine gland." RELATED []
 is_a: AEO:0000096 ! gland
@@ -159,7 +161,7 @@ is_a: AEO:0000096 ! gland
 [Term]
 id: AEO:0000098
 name: ductless gland
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A gland that releases its secretion directly into the bloodstream, or equivalent for an invertebrate." [AEO:JB]
 synonym: "endocrine gland." RELATED [AEO:JB]
 is_a: AEO:0000096 ! gland
@@ -167,49 +169,49 @@ is_a: AEO:0000096 ! gland
 [Term]
 id: AEO:0000099
 name: keratin-based structure
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Acellular anatomical structure whose predominant constituent is keratin." [AEO:JB]
 is_a: CARO:0000040 ! acellular anatomical structure
 
 [Term]
 id: AEO:0000100
 name: chitin-based structure
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Acellular anatomical structure whose predominant constituent is chitin." [AEO:JB]
 is_a: CARO:0000040 ! acellular anatomical structure
 
 [Term]
 id: AEO:0000103
 name: body
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "The region of the organism associated with the visceral organs." [AEO:JB]
 is_a: CARO:0000032 ! organism subdivision
 
 [Term]
 id: AEO:0000106
 name: head
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "The region of the body containing the brain and mouth." [AEO:JB]
 is_a: CARO:0000032 ! organism subdivision
 
 [Term]
 id: AEO:0000108
 name: neck
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "The region of the body connecting the head and the body." [AEO:JB]
 is_a: CARO:0000032 ! organism subdivision
 
 [Term]
 id: AEO:0000109
 name: tail
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An external caudal extension of the body." [AEO:JB]
 is_a: AEO:0000193 ! appendage
 
 [Term]
 id: AEO:0000111
 name: mesothelium
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Epithelium derived from mesenchyme." [AEO:JB]
 is_a: CARO:0000070 ! simple squamous epithelium
 relationship: surrounds CARO:0000043 ! simple tissue
@@ -217,7 +219,7 @@ relationship: surrounds CARO:0000043 ! simple tissue
 [Term]
 id: AEO:0000114
 name: epithelial tube
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An epithelial structure capable of allowing fluid flow." [AEO:JB]
 is_a: CARO:0000066 ! epithelium
 relationship: has_part CL:0000068 ! duct epithelial cell
@@ -225,7 +227,7 @@ relationship: has_part CL:0000068 ! duct epithelial cell
 [Term]
 id: AEO:0000115
 name: epithelial sac
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An epithelial pouch with a single opening." [AEO:JB]
 is_a: CARO:0000066 ! epithelium
 relationship: has_part CL:0000075 ! columnar/cuboidal epithelial cell
@@ -233,7 +235,7 @@ relationship: has_part CL:0000075 ! columnar/cuboidal epithelial cell
 [Term]
 id: AEO:0000117
 name: arborising epithelial duct system
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A group of connected epithelial tubes with a single portal." [AEO:JB]
 is_a: AEO:0000115 ! epithelial sac
 relationship: has_part CL:0000068 ! duct epithelial cell
@@ -241,7 +243,7 @@ relationship: has_part CL:0000068 ! duct epithelial cell
 [Term]
 id: AEO:0000118
 name: epithelial plexus
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A network of interlinking epithelial tubes." [AEO:JB]
 is_a: AEO:0000114 ! epithelial tube
 relationship: has_part CL:0000068 ! duct epithelial cell
@@ -256,28 +258,28 @@ relationship: has_part CL:0000075 ! columnar/cuboidal epithelial cell
 [Term]
 id: AEO:0000119f
 name: epithelial vesicle
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A closed epithelium with a lumen." [AEO:JB]
 is_obsolete: true
 
 [Term]
 id: AEO:0000122
 name: muscle tissue
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A tissue composed of myoblasts or muscle cells." [AEO:JB]
 is_a: CARO:0000043 ! simple tissue
 
 [Term]
 id: AEO:0000123
 name: neural tissue
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Tissue composed predominantly of neurons." [AEO:JB]
 is_a: CARO:0000043 ! simple tissue
 
 [Term]
 id: AEO:0000125
 name: developing anatomical structure
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0005423
 def: "A structure whose morphology or state of differentiation will change during normal development." [AEO:JB]
 is_a: CARO:0000003 ! anatomical structure
@@ -285,7 +287,7 @@ is_a: CARO:0000003 ! anatomical structure
 [Term]
 id: AEO:0000126
 name: larva
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A post-embryonic juvenile form which will undergo metamorphosis to become the adult." [AEO:JB]
 is_a: AEO:0000125 ! developing anatomical structure
 is_a: CARO:0000012 ! multi-cellular organism
@@ -293,7 +295,7 @@ is_a: CARO:0000012 ! multi-cellular organism
 [Term]
 id: AEO:0000127
 name: apoptosing developing anatomical entity
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An embryonic anatomical structure undergoing apoptosis." [AEO:JB]
 is_a: AEO:0000125 ! developing anatomical structure
 relationship: has_part CL:0000445 ! apoptosis fated cell
@@ -301,14 +303,14 @@ relationship: has_part CL:0000445 ! apoptosis fated cell
 [Term]
 id: AEO:0000129
 name: functioning and developing structure
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An embryonic entity that displays a physiological function but whose strucuture is not yet fully formed." [AEO:JB]
 is_a: AEO:0000125 ! developing anatomical structure
 
 [Term]
 id: AEO:0000131
 name: developing structure with stem cells
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Embronic structure that contains stem cellsr that may contribute to its future development or maintenance or to its future development or maintenance of another tissue." [AEO:JB]
 is_a: AEO:0000125 ! developing anatomical structure
 relationship: has_part CL:0000034 ! stem cell
@@ -316,21 +318,21 @@ relationship: has_part CL:0000034 ! stem cell
 [Term]
 id: AEO:0000132
 name: transitional anatomical structure
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An embryonic anatomical entity that will turn into one or more other anatomical entities, perhaps with other anatomical entities, later in development." [AEO:JB]
 is_a: AEO:0000125 ! developing anatomical structure
 
 [Term]
 id: AEO:0000135
 name: ganglion
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A group of neurons, usually outside the CNS, which relay neuronal signals." [AEO:JB]
 is_a: AEO:0000123 ! neural tissue
 
 [Term]
 id: AEO:0000136
 name: neuronal nucleus
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A localised domain of predominantly neuronal tissue in the central nervous system." [AEO:JB]
 is_a: AEO:0001012 ! neuronal grey matter
 relationship: has_part CL:0000127 ! astrocyte
@@ -340,14 +342,14 @@ relationship: has_part CL:0000129 ! microglial cell
 [Term]
 id: AEO:0000137
 name: nerve
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A group of neurons that provides a nervous supply." [AEO:JB]
 is_a: AEO:0000123 ! neural tissue
 
 [Term]
 id: AEO:0000138
 name: nerve plexus
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A complex of interconnecting nerves." [AEO:JB]
 is_a: AEO:0000123 ! neural tissue
 relationship: has_part CL:0000526 ! afferent neuron
@@ -356,7 +358,7 @@ relationship: has_part CL:0000527 ! efferent neuron
 [Term]
 id: AEO:0000139
 name: nerve fiber tract
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A fasciculated bundle of neuron projections, largely or completely lacking synapses." [CARO:0001001, GO:0043005]
 synonym: "neuron projection bundle" RELATED [GO:0043005]
 is_a: AEO:0001011 ! neuronal white matter
@@ -364,7 +366,7 @@ is_a: AEO:0001011 ! neuronal white matter
 [Term]
 id: AEO:0000140
 name: striated muscle tissue
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A tissue composed of striated muscle cells." [AEO:JB]
 is_a: AEO:0000122 ! muscle tissue
 relationship: has_part CL:0000737 ! striated muscle cell
@@ -372,7 +374,7 @@ relationship: has_part CL:0000737 ! striated muscle cell
 [Term]
 id: AEO:0000141
 name: smooth muscle tissue
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A tissue composed of smooth muscle cells." [AEO:JB]
 is_a: AEO:0000122 ! muscle tissue
 relationship: has_part CL:0000192 ! smooth muscle cell
@@ -380,7 +382,7 @@ relationship: has_part CL:0000192 ! smooth muscle cell
 [Term]
 id: AEO:0000142
 name: cardiac muscle tissue
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A tissue composed of cardiac muscle cells." [AEO:JB]
 is_a: AEO:0000122 ! muscle tissue
 relationship: has_part CL:0000746 ! cardiac muscle cell
@@ -388,7 +390,7 @@ relationship: has_part CL:0000746 ! cardiac muscle cell
 [Term]
 id: AEO:0000143
 name: smooth muscle sphincter
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A ring of smooth muscle cells whose contraction closes the opening of the ring." [AEO:JB]
 is_a: AEO:0000141 ! smooth muscle tissue
 relationship: has_part CL:0000192 ! smooth muscle cell
@@ -396,7 +398,7 @@ relationship: has_part CL:0000192 ! smooth muscle cell
 [Term]
 id: AEO:0000144
 name: striated muscle sphincter
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A ring of striated muscle cells whose contraction closes the opening of the ring." [AEO:JB]
 is_a: AEO:0000140 ! striated muscle tissue
 relationship: has_part CL:0000737 ! striated muscle cell
@@ -404,14 +406,14 @@ relationship: has_part CL:0000737 ! striated muscle cell
 [Term]
 id: AEO:0000145
 name: mesenchymal tissue
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A group of not-yet-terminally-differentiatied cells that can pack in three dimensions." [AEO:JB]
 is_a: CARO:0000043 ! simple tissue
 
 [Term]
 id: AEO:0000146
 name: dense mesenchyme tissue
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Mesenchyme with little extracellular matrix." [AEO:JB]
 is_a: AEO:0000145 ! mesenchymal tissue
 relationship: has_part CL:0000057 ! fibroblast
@@ -419,7 +421,7 @@ relationship: has_part CL:0000057 ! fibroblast
 [Term]
 id: AEO:0000147
 name: cartilagenous condensation
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Cell condensation that is an aggregation of mesenchymal cells that are committed to differentiate into chondroblasts and chondrocytes." [AEO:JB, GO:curator, VAO:0000092]
 is_a: AEO:0000148 ! developing mesenchymal condensation
 relationship: has_part CL:0000058 ! chondroblast
@@ -428,9 +430,8 @@ relationship: part_of AEO:0000168 ! skeletal system
 [Term]
 id: AEO:0000148
 name: developing mesenchymal condensation
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A delimited region of dense mesenchyme within looser mesenchyme." [AEO:JB]
-is_a: AEO:0000125 ! developing anatomical structure
 is_a: AEO:0000146 ! dense mesenchyme tissue
 is_a: AEO:0001016 ! developing mesenchymal structure
 relationship: has_part CL:0000335 ! mesenchyme condensation cell
@@ -438,7 +439,7 @@ relationship: has_part CL:0000335 ! mesenchyme condensation cell
 [Term]
 id: AEO:0000149
 name: pre-muscle condensation
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A delimited region of dense mesenchyme within looser mesenchyme whose cells are committed to become myoblasts." [AEO:JB]
 is_a: AEO:0000148 ! developing mesenchymal condensation
 relationship: has_part CL:0000680 ! muscle precursor cell
@@ -446,7 +447,7 @@ relationship: has_part CL:0000680 ! muscle precursor cell
 [Term]
 id: AEO:0000150
 name: pre-cartilage condensation
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A delimited region of dense mesenchyme within looser mesenchyme whose cells are committed to become chondroblasts." [AEO:JB]
 is_a: AEO:0000148 ! developing mesenchymal condensation
 relationship: has_part CL:0000335 ! mesenchyme condensation cell
@@ -455,7 +456,7 @@ relationship: part_of AEO:0000168 ! skeletal system
 [Term]
 id: AEO:0000151
 name: loose mesenchyme tissue
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Mesenchyme whose cells are embedded in obvious amounts fo extracellular matrix." [AEO:JB]
 is_a: AEO:0000145 ! mesenchymal tissue
 relationship: has_part CL:0000057 ! fibroblast
@@ -464,7 +465,7 @@ relationship: has_part CL:0000327 ! extracellular matrix secreting cell
 [Term]
 id: AEO:0000152
 name: migrating mesenchyme population
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Mesenchymal cells that are migrating." [AEO:JB]
 is_a: AEO:0000145 ! mesenchymal tissue
 is_a: AEO:0000217 ! migrating developing tissue
@@ -473,21 +474,21 @@ relationship: has_part CL:0000134 ! mesenchymal cell
 [Term]
 id: AEO:0000153
 name: mesenchymal tissue with stem cells
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Multi-tissue mesenchymal structure one of whose parts contains stem cells that can replace other parts." [AEO:JB]
 is_a: AEO:0000187 ! multi-tissue structure with stem cells
 
 [Term]
 id: AEO:0000154
 name: organism surfacef
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "The collection of structures that form the exxtenal covering of the organism." [AEO:JB]
 is_a: CARO:0000032 ! organism subdivision
 
 [Term]
 id: AEO:0000161
 name: groove
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0006846
 alt_id: ZFA:0001690
 def: "The exposed  surface of a furrow or an incomplete tube." [AEO:JB]
@@ -496,21 +497,21 @@ is_a: CARO:0000010 ! anatomical surface
 [Term]
 id: AEO:0000162
 name: ridge
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A raised strip of tissue." [AEO:JB]
 is_a: CARO:0000010 ! anatomical surface
 
 [Term]
 id: AEO:0000168
 name: skeletal system
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "The rigid support system for the body." [AEO:JB, VAO:0000027]
 is_a: CARO:0000011 ! anatomical system
 
 [Term]
 id: AEO:0000169
 name: embryo
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000922
 alt_id: ZFA:0001105
 def: "That part of the conceptus that will form the organism." [AEO:JB]
@@ -520,21 +521,21 @@ relationship: part_of AEO:0000194 ! conceptus
 [Term]
 id: AEO:0000170
 name: anlage
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Anlagen are populations of contiguous cells, typically arranged in one plane, that are morphologically indistinct, but that already correspond in extent to a later organ/tissue." [AEO:JB]
 is_a: AEO:0000125 ! developing anatomical structure
 
 [Term]
 id: AEO:0000171
 name: primordium
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Primordia are populations of contiguous cells that are morphologically distinct and already correspond in extent to a later organ/tissue." [AEO:JB]
 is_a: AEO:0000125 ! developing anatomical structure
 
 [Term]
 id: AEO:0000172
 name: limb
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Appendage of an animal used for locomotion or grasping." [AEO:JB]
 is_a: AEO:0000193 ! appendage
 is_a: CARO:0000074 ! solid compound organ
@@ -542,7 +543,7 @@ is_a: CARO:0000074 ! solid compound organ
 [Term]
 id: AEO:0000173
 name: surface sense organ
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Multicellular anatomical structure with largely bona fide boundary that extends outwards from or is part of the organism surface and transduces some sensory stimulus to the nervous system." [AEO:JB]
 is_a: AEO:0000094 ! sense organ
 relationship: part_of AEO:0000154 ! organism surfacef
@@ -550,35 +551,35 @@ relationship: part_of AEO:0000154 ! organism surfacef
 [Term]
 id: AEO:0000174
 name: gender-specific anatomical structure
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A part of the body present only in a specific gender." [AEO:JB]
 is_a: CARO:0000003 ! anatomical structure
 
 [Term]
 id: AEO:0000175
 name: male anatomical structure
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A part of the body present only in males." [AEO:JB]
 is_a: AEO:0000174 ! gender-specific anatomical structure
 
 [Term]
 id: AEO:0000176
 name: female anatomical structure
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A part of the body present only in females." [AEO:JB]
 is_a: AEO:0000174 ! gender-specific anatomical structure
 
 [Term]
 id: AEO:0000177
 name: hermaphrodite anatomical structure
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A part of the body present only in hermaphrodites." [AEO:JB]
 is_a: AEO:0000174 ! gender-specific anatomical structure
 
 [Term]
 id: AEO:0000178
 name: fibrous joint
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A flexible joint between two bones that is made of unossified connective tissue." [AEO:JB]
 is_a: AEO:0000081 ! matrix-based tissue
 relationship: has_part CL:0002320 ! connective tissue cell
@@ -587,7 +588,7 @@ relationship: part_of AEO:0000168 ! skeletal system
 [Term]
 id: AEO:0000179
 name: joint-associated cartilage
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "The articular cartilage covering of the region of bone within a synoval joint." [AEO:JB]
 is_a: AEO:0000087 ! cartilage
 relationship: has_part CL:0000058 ! chondroblast
@@ -598,7 +599,7 @@ relationship: part_of AEO:0000183 ! synovial joint
 [Term]
 id: AEO:0000180
 name: non-joint-associated cartilage
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Cartilage that may provide the template for an endochondral bone or that may be a disinct entity in the skeleton." [AEO:JB]
 is_a: AEO:0000087 ! cartilage
 relationship: has_part CL:0000058 ! chondroblast
@@ -608,7 +609,7 @@ relationship: part_of AEO:0000168 ! skeletal system
 [Term]
 id: AEO:0000181
 name: synovial membrane
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "The epithelial membrane between bone ends that forms the lateral borders of the synovial cavity and secretes synovial fluid." [AEO:JB]
 is_a: CARO:0000068 ! columnar epithelium
 is_a: CARO:0000069 ! multilaminar epithelium
@@ -618,7 +619,7 @@ relationship: part_of AEO:0000183 ! synovial joint
 [Term]
 id: AEO:0000183
 name: synovial joint
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A joint connecting two or more bones with cartilage at the bone ends and a synovial membrane that secretes synovial fluid conecting the bones and sealing the synovial cavity." [AEO:JB]
 is_a: CARO:0000055 ! multi-tissue structure
 relationship: part_of AEO:0000168 ! skeletal system
@@ -626,7 +627,7 @@ relationship: part_of AEO:0000168 ! skeletal system
 [Term]
 id: AEO:0000185
 name: exoskeletal tissue
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A component of the exoskeleton." [AEO:JB]
 is_a: AEO:0000081 ! matrix-based tissue
 relationship: has_part CL:0000658 ! cuticle secreting cell
@@ -635,7 +636,7 @@ relationship: part_of AEO:0000168 ! skeletal system
 [Term]
 id: AEO:0000186
 name: body cavity
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0002323
 def: "The cavity within the body that contains the visceral organs." [AEO:JB]
 is_a: CARO:0000005 ! anatomical space
@@ -643,14 +644,14 @@ is_a: CARO:0000005 ! anatomical space
 [Term]
 id: AEO:0000187
 name: multi-tissue structure with stem cells
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Multi-tissue structure one of whose parts contains stem cells that can replace other parts." [AEO:JB]
 is_a: CARO:0000055 ! multi-tissue structure
 
 [Term]
 id: AEO:0000188
 name: acellular fluid anatomical entity
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An acellular fluid portion of organism substance that is produced by the organism for some non-waste purpose." [AEO:JB]
 is_a: CARO:0000004 ! non-tissue substance
 is_a: CARO:0000040 ! acellular anatomical structure
@@ -658,14 +659,14 @@ is_a: CARO:0000040 ! acellular anatomical structure
 [Term]
 id: AEO:0000189
 name: epithelial tissue with stem cells
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Multi-tissue epithelial structure one of whose parts contains stem cells that can replace other parts." [AEO:JB]
 is_a: AEO:0000187 ! multi-tissue structure with stem cells
 
 [Term]
 id: AEO:0000192
 name: anatomical surface feature
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Non-material anatomical entity of two dimensions, that is demarcated by anatomical lines or points on the external or internal surfaces of anatomical structures." [CARO:MAH]
 synonym: "anatomical surface." RELATED []
 is_obsolete: true
@@ -673,7 +674,7 @@ is_obsolete: true
 [Term]
 id: AEO:0000193
 name: appendage
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000026
 def: "Organ or organ part that is attached to the body of an organism. For example a limb[GO, modified]. An appendage is an external body part, or natural prolongation, that protrudes from an organism's body, such as a vertebrate's limbs." [CARO:MAH]
 is_a: CARO:0000032 ! organism subdivision
@@ -681,14 +682,14 @@ is_a: CARO:0000032 ! organism subdivision
 [Term]
 id: AEO:0000194
 name: conceptus
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "All the products of the fertilized egg." [AEO:JB]
 is_a: CARO:0000012 ! multi-cellular organism
 
 [Term]
 id: AEO:0000195
 name: extraembryonic component
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "The part of the conceptus that may be lost before birth or will be discarded at birth, or when the embryo becomes an independent organism." [AEO:JB]
 is_a: CARO:0000055 ! multi-tissue structure
 relationship: part_of AEO:0000194 ! conceptus
@@ -696,7 +697,7 @@ relationship: part_of AEO:0000194 ! conceptus
 [Term]
 id: AEO:0000196
 name: larval anatomical structure
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: HDAA2:0003126
 def: "An anatomical structure present in the larval form of an animal." [AEO:JB]
 is_a: AEO:0000125 ! developing anatomical structure
@@ -705,7 +706,7 @@ relationship: part_of AEO:0000126 ! larva
 [Term]
 id: AEO:0000198
 name: antenna
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A head-associated surface sense organ." [CARO:MAH]
 is_a: AEO:0000173 ! surface sense organ
 relationship: part_of AEO:0000106 ! head
@@ -714,7 +715,7 @@ relationship: part_of AEO:0000154 ! organism surfacef
 [Term]
 id: AEO:0000199
 name: mucous membrane
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A membranous structure with more than one cell type, one or more of which secretes mucus, that lines body passages which communicate with the exterior." [AEO:JB]
 synonym: "mucosa" RELATED []
 is_a: CARO:0000055 ! multi-tissue structure
@@ -722,7 +723,7 @@ is_a: CARO:0000055 ! multi-tissue structure
 [Term]
 id: AEO:000020
 name: fat tissue
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Tissue that is predominantly made of fat cells." [AEO:JB]
 is_a: CARO:0000043 ! simple tissue
 relationship: has_part CL:0000136 ! fat cell
@@ -730,14 +731,14 @@ relationship: has_part CL:0000136 ! fat cell
 [Term]
 id: AEO:0000200
 name: regenerating anatomical structure
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An anatomical structure that, as part of its normal physiology, undergoes regeneration. Examples include endometrium and antlers." [AEO:JB]
 is_a: CARO:0000003 ! anatomical structure
 
 [Term]
 id: AEO:0000201
 name: afferent nerve
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A group of neurons that provides a nervous response from a tissue." [AEO:JB]
 is_a: AEO:0000137 ! nerve
 relationship: has_part CL:0000526 ! afferent neuron
@@ -745,7 +746,7 @@ relationship: has_part CL:0000526 ! afferent neuron
 [Term]
 id: AEO:0000202
 name: efferent nerve
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A group of neurons that provides a nervous signal to a tissue." [AEO:JB]
 is_a: AEO:0000137 ! nerve
 is_a: AEO:0000148 ! developing mesenchymal condensation
@@ -755,7 +756,7 @@ relationship: has_part CL:0000527 ! efferent neuron
 [Term]
 id: AEO:0000203
 name: syncytium
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: HDAA2:0003248
 def: "An anatomical entity consisting of a single or a few multinucleated structures." [AEO.:JB]
 is_a: CARO:0000043 ! simple tissue
@@ -764,21 +765,21 @@ relationship: has_part CL:0000228 ! multinucleate cell
 [Term]
 id: AEO:0000204
 name: pit
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An roughly circular indentation in a surface." [AEO:JB]
 is_a: CARO:0000010 ! anatomical surface
 
 [Term]
 id: AEO:0000205
 name: protuberance
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A roughly circular bulge in a surface." [AEO:JB]
 is_a: CARO:0000010 ! anatomical surface
 
 [Term]
 id: AEO:0000206
 name: migrating epithelium
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An epithelium that extends its surface area by peripheral movement." [AEO:JB]
 is_a: CARO:0000066 ! epithelium
 relationship: has_part CL:0000066 ! epithelial cell
@@ -786,7 +787,7 @@ relationship: has_part CL:0000066 ! epithelial cell
 [Term]
 id: AEO:0000207
 name: blood vessel
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An epithelial tube that transports blood." [AEO:JB]
 is_a: AEO:0000114 ! epithelial tube
 relationship: has_part CL:0000071 ! blood vessel endothelial cell
@@ -794,7 +795,7 @@ relationship: has_part CL:0000071 ! blood vessel endothelial cell
 [Term]
 id: AEO:0000208
 name: artery
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An epithelial tube that transports blood away from the heart." [AEO:JB]
 is_a: AEO:0000207 ! blood vessel
 relationship: has_part CL:0000071 ! blood vessel endothelial cell
@@ -802,7 +803,7 @@ relationship: has_part CL:0000071 ! blood vessel endothelial cell
 [Term]
 id: AEO:0000209
 name: vein
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An epithelial tube that transports blood towards the heart." [AEO:JB]
 is_a: AEO:0000207 ! blood vessel
 relationship: has_part CL:0000071 ! blood vessel endothelial cell
@@ -810,7 +811,7 @@ relationship: has_part CL:0000071 ! blood vessel endothelial cell
 [Term]
 id: AEO:0000210
 name: row
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: FBbt:00100152
 alt_id: HDAA2:0003255
 def: "Anatomical group whose component structures are arranged in a row." [DBft:DOS]
@@ -819,7 +820,7 @@ is_a: CARO:0000054 ! anatomical group
 [Term]
 id: AEO:0000211
 name: non-connected developing functional system
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: FBbt:0004003
 alt_id: HDAA2:0003256
 def: "The sum of all the anlagen and primordia that will develop into a single functional system." [FBbt:DOS]
@@ -829,17 +830,16 @@ is_a: CARO:0000041 ! anatomical cluster
 [Term]
 id: AEO:0000212
 name: sclerotome
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "The mesenchymal derivative of a somite that will migrate to surround the neural tube and form vertebrae." [AEO:JB]
 is_a: AEO:0000152 ! migrating mesenchyme population
-is_a: AEO:0000217 ! migrating developing tissue
 is_a: AEO:0001016 ! developing mesenchymal structure
 relationship: has_part CL:0000134 ! mesenchymal cell
 
 [Term]
 id: AEO:0000213
 name: bone condensation
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A delimited region of osteoblasts representing the early stages of bone formation." [AEO:JB]
 is_a: AEO:0000148 ! developing mesenchymal condensation
 relationship: has_part CL:0000062 ! osteoblast
@@ -848,7 +848,7 @@ relationship: part_of AEO:0000168 ! skeletal system
 [Term]
 id: AEO:0000214
 name: dermomyotome
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "The bilaminar epithelium formed from the myotome and dermatome." [AEO:JB]
 is_a: AEO:0000132 ! transitional anatomical structure
 is_a: CARO:0000069 ! multilaminar epithelium
@@ -857,30 +857,29 @@ relationship: has_part CL:0000075 ! columnar/cuboidal epithelial cell
 [Term]
 id: AEO:0000215
 name: open cavity
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A volume that is mainly bounded but has an opening to another cavity or to the outside." [JB:AEO]
 is_a: AEO:0000221 ! open anatomical space
 
 [Term]
 id: AEO:0000216
 name: epithelial cord
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A cord of epithelial cells without a lumen and usually several cells thick." [JB:AEO]
-is_a: CARO:0000066 ! epithelium
 is_a: CARO:0000069 ! multilaminar epithelium
 relationship: has_part CL:0000079 ! stratified epithelial cell
 
 [Term]
 id: AEO:0000217
 name: migrating developing tissue
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A simple coherent tissue or a localized population of similar cells that are actively migrating." [JB:AEO]
 is_a: AEO:0000125 ! developing anatomical structure
 
 [Term]
 id: AEO:0000218
 name: developing epithelial placode
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A domain of columnar epithelium in an embryo that represents the early stage of the development of the epithelial component of a new anatomical structure." [JB:AEO]
 is_a: AEO:0001007 ! developing epithelium
 relationship: has_part CL:0000075 ! columnar/cuboidal epithelial cell
@@ -888,7 +887,7 @@ relationship: has_part CL:0000075 ! columnar/cuboidal epithelial cell
 [Term]
 id: AEO:0000219
 name: vascular plexus
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A network of interlinked veins." [JB:AEO]
 is_a: AEO:0000118 ! epithelial plexus
 relationship: has_part CL:0000071 ! blood vessel endothelial cell
@@ -896,28 +895,28 @@ relationship: has_part CL:0000071 ! blood vessel endothelial cell
 [Term]
 id: AEO:0000220
 name: tooth
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Each of a set of hard, bony enamel-coated structures in the jaws of most vertebrates, used for biting and chewing." [JB:AEO]
 is_a: CARO:0000055 ! multi-tissue structure
 
 [Term]
 id: AEO:0000221
 name: open anatomical space
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An anatomical space with at least one opening to another space or the exterior." [JB:AEO]
 is_a: CARO:0000005 ! anatomical space
 
 [Term]
 id: AEO:0000222
 name: enclosed anatomical space
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An anatomical space with no opening to another space or to the exterior." [JB:AEO]
 is_a: CARO:0000005 ! anatomical space
 
 [Term]
 id: AEO:0001000
 name: sensory ganglion
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A ganglion containing sensory neurons." [JB:AEO]
 is_a: AEO:0000135 ! ganglion
 relationship: has_part CL:0000101 ! sensory neuron
@@ -927,7 +926,7 @@ relationship: has_part CL:0002573 ! Schwann cell
 [Term]
 id: AEO:0001001
 name: autonomic ganglion
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A ganglion that is part of the autonomic nervous system." [JB:AEO]
 is_a: AEO:0000135 ! ganglion
 relationship: has_part CL:0000107 ! autonomic neuron
@@ -939,7 +938,7 @@ relationship: has_part CL:0002573 ! Schwann cell
 [Term]
 id: AEO:0001002
 name: capillary bed
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A localized group of blood capillaries." [JB:AEO]
 is_a: AEO:0000118 ! epithelial plexus
 relationship: has_part CL:0000071 ! blood vessel endothelial cell
@@ -947,21 +946,21 @@ relationship: has_part CL:0000071 ! blood vessel endothelial cell
 [Term]
 id: AEO:0001003
 name: acellular extracellular matrix
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An acellular structure typically composed of collagen, glycoproteins and glycosaminoglycans." [JB:AEO]
 is_a: CARO:0000040 ! acellular anatomical structure
 
 [Term]
 id: AEO:0001004
 name: fin
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A flattened appendage on a marine animal." [JB:AEO, VAO:0000099]
 is_a: AEO:0000193 ! appendage
 
 [Term]
 id: AEO:0001005
 name: secretion
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000456
 def: "A non-cellular substance released by a cell, gland or tissue." [JB:AEO]
 is_a: CARO:0000004 ! non-tissue substance
@@ -969,7 +968,7 @@ is_a: CARO:0000004 ! non-tissue substance
 [Term]
 id: AEO:0001006
 name: excreta
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000174
 def: "Excreta are bodily fluids consisting of waste matter, such as sweat or feces, discharged from the body." [JB:AEO]
 is_a: CARO:0000004 ! non-tissue substance
@@ -977,7 +976,7 @@ is_a: CARO:0000004 ! non-tissue substance
 [Term]
 id: AEO:0001007
 name: developing epithelium
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An epithelium within an embryo or larva that is undergoing a major developmental change." [AEO:JB]
 is_a: AEO:0000125 ! developing anatomical structure
 is_a: CARO:0000066 ! epithelium
@@ -985,7 +984,7 @@ is_a: CARO:0000066 ! epithelium
 [Term]
 id: AEO:0001008
 name: neuroepithelium
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An embryonic or larval epithelium that is committed to form part of the nervous system." [AEO:JB]
 is_a: AEO:0001007 ! developing epithelium
 relationship: has_part CL:0000075 ! columnar/cuboidal epithelial cell
@@ -993,7 +992,7 @@ relationship: has_part CL:0000075 ! columnar/cuboidal epithelial cell
 [Term]
 id: AEO:0001009
 name: proliferating neuroepithelium
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An epithelium that is undergoing proliferation to provide large numbers of neuronal cells." [AEO:JB]
 is_a: AEO:0001008 ! neuroepithelium
 relationship: has_part CL:0000075 ! columnar/cuboidal epithelial cell
@@ -1001,7 +1000,7 @@ relationship: has_part CL:0000075 ! columnar/cuboidal epithelial cell
 [Term]
 id: AEO:0001010
 name: differentiating neuroepithelium
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A neuroepithelium some of whose cells are undergoing terminal differentiation to become neuronal cells." [AEO:JB]
 is_a: AEO:0001008 ! neuroepithelium
 relationship: has_part CL:0000031 ! neuroblast
@@ -1010,21 +1009,21 @@ relationship: has_part CL:0000468 ! neuroglioblast
 [Term]
 id: AEO:0001011
 name: neuronal white matter
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Neuronal tissue composed predominantly of axons." [AEO:JB]
 is_a: AEO:0000123 ! neural tissue
 
 [Term]
 id: AEO:0001012
 name: neuronal grey matter
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A neuronal tissue composed predominantly of nerve bodies and neuronal support cells." [AEO:JB]
 is_a: AEO:0000123 ! neural tissue
 
 [Term]
 id: AEO:0001013
 name: neuronal column
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An extended columnar domain of predominantly neuronal tissue in the central nervous system." [AEO:JB]
 is_a: AEO:0001012 ! neuronal grey matter
 relationship: has_part CL:0000127 ! astrocyte
@@ -1034,7 +1033,7 @@ relationship: has_part CL:0000129 ! microglial cell
 [Term]
 id: AEO:0001014
 name: differentiating neuronal condensation
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A compact group of cells differentiating to become a ganglion or a neuronal nucleus." [AEO:JB]
 is_a: AEO:0000125 ! developing anatomical structure
 relationship: has_part CL:0000031 ! neuroblast
@@ -1043,7 +1042,7 @@ relationship: has_part CL:0000468 ! neuroglioblast
 [Term]
 id: AEO:0001015
 name: somite
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "An epithelial ball that forms from paraxial mesoderm." [JB:AEO]
 is_a: AEO:0000119 ! epithelial vesicle
 is_a: AEO:0000132 ! transitional anatomical structure
@@ -1052,14 +1051,14 @@ relationship: has_part CL:0000075 ! columnar/cuboidal epithelial cell
 [Term]
 id: AEO:0001016
 name: developing mesenchymal structure
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A mesenchyme-derived anatomical entity undergoing a transtion to become another structure." [AEO:JB]
 is_a: AEO:0000125 ! developing anatomical structure
 
 [Term]
 id: AEO:0001017
 name: dermatome
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A transitional population of migrating mesenchymal cells that derive from somites and that will become dermal cells." [AEO:JB]
 is_a: AEO:0000217 ! migrating developing tissue
 is_a: AEO:0001016 ! developing mesenchymal structure
@@ -1067,7 +1066,7 @@ is_a: AEO:0001016 ! developing mesenchymal structure
 [Term]
 id: AEO:0001018
 name: myotome
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A transitional population of migrating mesenchymal cells that derive from somites and that will become muscle cells." [AEO:JB]
 is_a: AEO:0000217 ! migrating developing tissue
 is_a: AEO:0001016 ! developing mesenchymal structure
@@ -1075,14 +1074,14 @@ is_a: AEO:0001016 ! developing mesenchymal structure
 [Term]
 id: AEO:0001019
 name: developing germ cell population
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A germ cell population that has not undergone meiosis." [AEO:JB]
 is_a: AEO:0000125 ! developing anatomical structure
 
 [Term]
 id: AEO:0001020
 name: reproductive cell population
-namespace: 'http\://www.xspan.org/obo.owl#
+namespace: 'http://www.xspan.org/obo.owl#
 def: "A population of cells that are predominantly immature or mature germ cells." [AEO:JB]
 is_a: CARO:0000043 ! simple tissue
 relationship: has_part CL:0000586 ! germ cell
@@ -1090,21 +1089,21 @@ relationship: has_part CL:0000586 ! germ cell
 [Term]
 id: AEO:0001021
 name: stem cell population
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A group of cells capable of regenerating themselves and also of producing one or more populations of differentiated cells." [AEO:JB]
 is_a: CARO:0000043 ! simple tissue
 
 [Term]
 id: CARO:0000000
 name: anatomical entity
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0001062
 def: "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species." [CARO:MAH]
 
 [Term]
 id: CARO:0000003
 name: anatomical structure
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000061
 def: "Material anatomical entity that has inherent 3D shape and is generated by coordinated expression of the organism's own genome." [CARO:MAH]
 is_a: CARO:0000006 ! material anatomical entity
@@ -1112,7 +1111,7 @@ is_a: CARO:0000006 ! material anatomical entity
 [Term]
 id: CARO:0000004
 name: non-tissue substance
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000463
 def: "Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body." [CARO:MAH]
 synonym: "portion of organism substance" RELATED []
@@ -1121,7 +1120,7 @@ is_a: CARO:0000006 ! material anatomical entity
 [Term]
 id: CARO:0000005
 name: anatomical space
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000464
 def: "Non-material anatomical entity of three dimensions, that is generated by morphogenetic or other physiologic processes; is surrounded by one or more anatomical structures; contains one or more organism substances or anatomical structures." [CARO:MAH]
 is_a: CARO:0000007 ! immaterial anatomical entity
@@ -1129,7 +1128,7 @@ is_a: CARO:0000007 ! immaterial anatomical entity
 [Term]
 id: CARO:0000006
 name: material anatomical entity
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000465
 def: "Anatomical entity that has mass." [CARO:MAH]
 is_a: CARO:0000000 ! anatomical entity
@@ -1137,7 +1136,7 @@ is_a: CARO:0000000 ! anatomical entity
 [Term]
 id: CARO:0000007
 name: immaterial anatomical entity
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000466
 def: "Anatomical entity that has no mass." [CARO:MAH]
 is_a: CARO:0000000 ! anatomical entity
@@ -1145,21 +1144,21 @@ is_a: CARO:0000000 ! anatomical entity
 [Term]
 id: CARO:0000008
 name: anatomical line
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Non-material anatomical entity of one dimension, which forms a boundary of an anatomical surface or is a modulation of an anatomical surface." [CARO:MAH]
 is_a: CARO:0000007 ! immaterial anatomical entity
 
 [Term]
 id: CARO:0000009
 name: anatomical point
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Non-material anatomical entity of zero dimension, which forms a boundary of an anatomical line or surface." [CARO:MAH]
 is_a: CARO:0000007 ! immaterial anatomical entity
 
 [Term]
 id: CARO:0000010
 name: anatomical surface
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000015
 def: "Non-material anatomical entity of two dimensions, that is demarcated by anatomical lines or points on the external or internal surfaces of anatomical structures." [CARO:MAH]
 is_a: CARO:0000007 ! immaterial anatomical entity
@@ -1167,30 +1166,29 @@ is_a: CARO:0000007 ! immaterial anatomical entity
 [Term]
 id: CARO:0000011
 name: anatomical system
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Anatomical group that is has as its parts distinct anatomical structures interconnected by anatomical structures at a lower level of granularity." [CARO:MAH]
 is_a: CARO:0000054 ! anatomical group
 
 [Term]
 id: CARO:0000012
 name: multi-cellular organism
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000468
 def: "Anatomical structure that is an individual member of a species and consists of more than one cell." [JB:DEF]
 is_a: CARO:0000003 ! anatomical structure
-is_a: CARO:0000006 ! material anatomical entity
 
 [Term]
 id: CARO:0000013
 name: cell
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane." [CARO:MAH]
 is_a: CARO:0000003 ! anatomical structure
 
 [Term]
 id: CARO:0000014
 name: cell component
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Anatomical structure that is a direct part of the cell." [CARO:MAH]
 is_a: CARO:0000003 ! anatomical structure
 relationship: part_of CARO:0000013 ! cell
@@ -1198,7 +1196,7 @@ relationship: part_of CARO:0000013 ! cell
 [Term]
 id: CARO:0000019
 name: compound organ component
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Multi-tissue structure that is part of a compound organ." [CARO:MAH]
 is_a: CARO:0000055 ! multi-tissue structure
 relationship: part_of CARO:0000024 ! compound organ
@@ -1206,35 +1204,35 @@ relationship: part_of CARO:0000024 ! compound organ
 [Term]
 id: CARO:0000021
 name: simple organ
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Multi-tissue structure that is not part of a compound organ." [CARO:MAH]
 is_a: CARO:0000055 ! multi-tissue structure
 
 [Term]
 id: CARO:0000024
 name: compound organ
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Anatomical structure that has as its parts two or more multi-tissue structures of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona fide boundaries from other distinct anatomical structures of different types." [CARO:MAH]
 is_a: CARO:0000003 ! anatomical structure
 
 [Term]
 id: CARO:0000027
 name: male organism
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Gonochoristic organism that can produce male gametes." [CARO:MAH]
 is_a: CARO:0000048 ! gonochoristic organism
 
 [Term]
 id: CARO:0000028
 name: female organism
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Gonochoristic organism that can produce female gametes." [CARO:MAH]
 is_a: CARO:0000048 ! gonochoristic organism
 
 [Term]
 id: CARO:0000029
 name: hermaphroditic organism
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Multi-cellular organism that can produce both male and female gametes." [CARO:MAH]
 synonym: "dioecious organism" RELATED []
 is_a: CARO:0000012 ! multi-cellular organism
@@ -1242,7 +1240,7 @@ is_a: CARO:0000012 ! multi-cellular organism
 [Term]
 id: CARO:0000032
 name: organism subdivision
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000475
 def: "Anatomical structure which is a primary subdivision of whole organism. The mereological sum of these is the whole organism." [CARO:MAH]
 is_a: CARO:0000003 ! anatomical structure
@@ -1250,7 +1248,7 @@ is_a: CARO:0000003 ! anatomical structure
 [Term]
 id: CARO:0000040
 name: acellular anatomical structure
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000476
 def: "Anatomical structure that consists of cell parts and cell substances and together does not constitute a cell or a tissue." [CARO:MAH]
 is_a: CARO:0000003 ! anatomical structure
@@ -1258,7 +1256,7 @@ is_a: CARO:0000003 ! anatomical structure
 [Term]
 id: CARO:0000041
 name: anatomical cluster
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000477
 def: "Anatomical group that has its parts adjacent to one another. Anatomical structure, which has as its parts a heterogeneous collection of organs, organ parts, cells or body part subdivisions that are adjacent to, or continuous with one another; does not constitute an organ, organ system or organ system subdivision, or body part or body part subdivision." [CARO:MAH]
 is_a: CARO:0000054 ! anatomical group
@@ -1266,7 +1264,7 @@ is_a: CARO:0000054 ! anatomical group
 [Term]
 id: CARO:0000042
 name: extraembryonic structure
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000478
 def: "Anatomical structure that is contiguous with the embryo and is comprised of portions of tissue or cells that will not contribute to the embryo." [CARO:MAH]
 is_a: CARO:0000003 ! anatomical structure
@@ -1274,7 +1272,7 @@ is_a: CARO:0000003 ! anatomical structure
 [Term]
 id: CARO:0000043
 name: simple tissue
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000479
 def: "Anatomical structure, that consists of similar cells and intercellular matrix, aggregated according to genetically determined spatial relationships." [CARO:MAH]
 synonym: "portion of tissue." RELATED []
@@ -1283,7 +1281,7 @@ is_a: CARO:0000003 ! anatomical structure
 [Term]
 id: CARO:0000045
 name: sequential hermaphroditic organism
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Hermaphroditic organism that produces gametes first of one sex, and then later of the other sex." [CARO:MAH]
 synonym: "consecutive hermaphroditic organism" RELATED []
 is_a: CARO:0000029 ! hermaphroditic organism
@@ -1291,7 +1289,7 @@ is_a: CARO:0000029 ! hermaphroditic organism
 [Term]
 id: CARO:0000046
 name: synchronous hermaphroditic organism
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Hermaphroditic organism that produces both male and female gametes at the same time." [CARO:MAH]
 synonym: "serially hermaphroditic organism" RELATED []
 is_a: CARO:0000029 ! hermaphroditic organism
@@ -1299,7 +1297,7 @@ is_a: CARO:0000029 ! hermaphroditic organism
 [Term]
 id: CARO:0000048
 name: gonochoristic organism
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Multi-cellular organism that has male and female sexes." [CARO:MAH]
 synonym: "monoecious organism" RELATED []
 is_a: CARO:0000012 ! multi-cellular organism
@@ -1307,21 +1305,21 @@ is_a: CARO:0000012 ! multi-cellular organism
 [Term]
 id: CARO:0000049
 name: protandrous hermaphroditic organism
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Sequential hermaphroditic organism that produces gametes first of the male sex, and then later of the female sex." [CARO:MAH]
 is_a: CARO:0000045 ! sequential hermaphroditic organism
 
 [Term]
 id: CARO:0000050
 name: protogynous hermaphroditic organism
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Sequential hermaphroditic organism that produces gametes first of the female sex, and then later of the male sex." [CARO:MAH]
 is_a: CARO:0000045 ! sequential hermaphroditic organism
 
 [Term]
 id: CARO:0000054
 name: anatomical group
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000480
 def: "Anatomical structure consisting of at least two non-overlapping organs, multi-tissue aggregates or portion of tissues or cells of different types that does not constitute an organism, organ, multi-tissue aggregate, or portion of tissue." [CARO:MAH]
 is_a: CARO:0000003 ! anatomical structure
@@ -1329,7 +1327,7 @@ is_a: CARO:0000003 ! anatomical structure
 [Term]
 id: CARO:0000055
 name: multi-tissue structure
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 alt_id: UBERON:0000481
 def: "Anatomical structure that has as its parts two or more portions of tissue of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona-fide boundaries from other distinct structural units of different types." [CARO:MAH]
 is_a: CARO:0000003 ! anatomical structure
@@ -1337,28 +1335,28 @@ is_a: CARO:0000003 ! anatomical structure
 [Term]
 id: CARO:0000062
 name: cell space
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Anatomical space that is part of a cell." [CARO:mah]
 is_a: CARO:0000005 ! anatomical space
 
 [Term]
 id: CARO:0000063
 name: asexual organism
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Multi-cellular organism that does not produce gametes." [CARO:MAH]
 is_a: CARO:0000012 ! multi-cellular organism
 
 [Term]
 id: CARO:0000064
 name: single cell organism
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Cell that is an individual member of a species." [CARO:MAH]
 is_a: CARO:0000013 ! cell
 
 [Term]
 id: CARO:0000065
 name: basal lamina
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Acellular anatomical structure that consists of a thin sheet of fibrous proteins that underlie and support the cells of an epithelium. It separates the cells of an epithelium from any underlying tissue." [CARO:MAH]
 is_a: CARO:0000040 ! acellular anatomical structure
 relationship: part_of CARO:0000066 ! epithelium
@@ -1366,14 +1364,14 @@ relationship: part_of CARO:0000066 ! epithelium
 [Term]
 id: CARO:0000066
 name: epithelium
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal lamina." [CARO:MAH]
 is_a: CARO:0000043 ! simple tissue
 
 [Term]
 id: CARO:0000067
 name: simple cuboidal epithelium
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Unilaminar epithelium that consists of a single layer of cuboidal cells." [CARO:MAH]
 is_a: CARO:0000073 ! unilaminar epithelium
 relationship: has_part CL:0000075 ! columnar/cuboidal epithelial cell
@@ -1381,21 +1379,21 @@ relationship: has_part CL:0000075 ! columnar/cuboidal epithelial cell
 [Term]
 id: CARO:0000068
 name: columnar epithelium
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Unilaminar epithelium that consists of a single layer of columnar cells." [CARO:MAH]
 is_a: CARO:0000073 ! unilaminar epithelium
 
 [Term]
 id: CARO:0000069
 name: multilaminar epithelium
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Epithelium that consists of more than one layer of epithelial cells." [CARO:MAH]
 is_a: CARO:0000066 ! epithelium
 
 [Term]
 id: CARO:0000070
 name: simple squamous epithelium
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Unilaminar epithelium that consists of a single layer of squamous cells." [CARO:MAH]
 is_a: CARO:0000073 ! unilaminar epithelium
 relationship: has_part CL:0000076 ! squamous epithelial cell
@@ -1403,7 +1401,7 @@ relationship: has_part CL:0000076 ! squamous epithelial cell
 [Term]
 id: CARO:0000071
 name: atypical epithelium
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Epithelium that consists of epithelial cells not arranged in one ore more layers." [CARO:MAH]
 is_a: CARO:0000066 ! epithelium
 relationship: has_part CL:0000066 ! epithelial cell
@@ -1411,28 +1409,28 @@ relationship: has_part CL:0000066 ! epithelial cell
 [Term]
 id: CARO:0000072
 name: cavitated compound organ
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Compound organ that contains one or more macroscopic anatomical spaces." [CARO:MAH]
 is_a: CARO:0000024 ! compound organ
 
 [Term]
 id: CARO:0000073
 name: unilaminar epithelium
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Epithelium that consists of a single layer of epithelial cells." [CARO:MAH]
 is_a: CARO:0000066 ! epithelium
 
 [Term]
 id: CARO:0000074
 name: solid compound organ
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Compound organ that does not contain macroscopic anatomical spaces." [CARO:MAH]
 is_a: CARO:0000024 ! compound organ
 
 [Term]
 id: CARO:0000077
 name: epithelial cell
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "Cell which has as its part a cytoskeleton that allows for tight cell to cell contact and which has apical-basal cell polarity." [CARO:MAH, CL:0000066]
 is_a: CARO:0000013 ! cell
 
@@ -1518,7 +1516,6 @@ def: "An immature cartilage-producing cell found in growing cartilage." [GOC:tfm
 synonym: "chrondoplast" RELATED []
 is_a: CL:0000055 ! non-terminally differentiated cell
 is_a: CL:0000667 ! collagen secreting cell
-is_a: CL:0002320 ! connective tissue cell
 
 [Term]
 id: CL:0000062
@@ -2338,7 +2335,6 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0000043
 name: 1st arch maxillary mesenchyme from head mesenchyme
 namespace: human_developmental_anatomy
-is_a: AEO:0000145 ! mesenchymal tissue
 is_a: AEO:0000146 ! dense mesenchyme tissue
 relationship: develops_from EHDAA2:0001118 ! head mesenchyme from mesoderm and endoderm
 relationship: ends_at CS15 ! CS15
@@ -2855,7 +2851,6 @@ relationship: starts_at CS17 ! CS17
 id: EHDAA2:0000122
 name: anal region
 namespace: human_developmental_anatomy
-is_a: CARO:0000003 ! anatomical structure
 is_a: CARO:0000041 ! anatomical cluster
 is_a: CARO:0000055 ! multi-tissue structure
 relationship: ends_at CS20 ! CS20
@@ -4424,7 +4419,6 @@ relationship: starts_at CS16 ! CS16
 id: EHDAA2:0000341
 name: dermomyotome 01
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001849 ! somite 01
 relationship: ends_at CS13 ! CS13
@@ -4435,7 +4429,6 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0000342
 name: dermomyotome 02
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001850 ! somite 02
 relationship: ends_at CS13 ! CS13
@@ -4446,7 +4439,6 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0000343
 name: dermomyotome 03
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001851 ! somite 03
 relationship: ends_at CS13 ! CS13
@@ -4457,7 +4449,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000344
 name: dermomyotome 04
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001852 ! somite 04
 relationship: ends_at CS13 ! CS13
@@ -4468,7 +4459,6 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0000345
 name: dermomyotome 05
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001853 ! somite 05
 relationship: ends_at CS15 ! CS15
@@ -4479,7 +4469,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000346
 name: dermomyotome 06
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001854 ! somite 06
 relationship: ends_at CS15 ! CS15
@@ -4490,7 +4479,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000347
 name: dermomyotome 07
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001855 ! somite 07
 relationship: ends_at CS15 ! CS15
@@ -4501,7 +4489,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000348
 name: dermomyotome 08
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001856 ! somite 08
 relationship: ends_at CS15 ! CS15
@@ -4512,7 +4499,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000349
 name: dermomyotome 09
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001857 ! somite 09
 relationship: ends_at CS15 ! CS15
@@ -4523,7 +4509,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000350
 name: dermomyotome 10
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001858 ! somite 10
 relationship: ends_at CS15 ! CS15
@@ -4534,7 +4519,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000351
 name: dermomyotome 11
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001859 ! somite 11
 relationship: ends_at CS15 ! CS15
@@ -4545,7 +4529,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000352
 name: dermomyotome 12
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001860 ! somite 12
 relationship: ends_at CS15 ! CS15
@@ -4556,7 +4539,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000353
 name: dermomyotome 13
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001861 ! somite 13
 relationship: ends_at CS15 ! CS15
@@ -4567,7 +4549,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000354
 name: dermomyotome 14
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001862 ! somite 14
 relationship: ends_at CS15 ! CS15
@@ -4578,7 +4559,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000355
 name: dermomyotome 15
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001863 ! somite 15
 relationship: ends_at CS15 ! CS15
@@ -4589,7 +4569,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000356
 name: dermomyotome 16
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001864 ! somite 16
 relationship: ends_at CS15 ! CS15
@@ -4600,7 +4579,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000357
 name: dermomyotome 17
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001865 ! somite 17
 relationship: ends_at CS15 ! CS15
@@ -4611,7 +4589,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000358
 name: dermomyotome 18
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001866 ! somite 18
 relationship: ends_at CS15 ! CS15
@@ -4622,7 +4599,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000359
 name: dermomyotome 19
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001867 ! somite 19
 relationship: ends_at CS15 ! CS15
@@ -4633,7 +4609,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000360
 name: dermomyotome 20
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001868 ! somite 20
 relationship: ends_at CS16 ! CS16
@@ -4644,7 +4619,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000361
 name: dermomyotome 21
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001869 ! somite 21
 relationship: ends_at CS16 ! CS16
@@ -4655,7 +4629,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0000362
 name: dermomyotome 22
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001870 ! somite 22
 relationship: ends_at CS16 ! CS16
@@ -4666,7 +4639,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0000363
 name: dermomyotome 23
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001871 ! somite 23
 relationship: ends_at CS16 ! CS16
@@ -4677,7 +4649,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0000364
 name: dermomyotome 24
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001872 ! somite 24
 relationship: ends_at CS16 ! CS16
@@ -4688,7 +4659,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0000365
 name: dermomyotome 25
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001873 ! somite 25
 relationship: ends_at CS17 ! CS17
@@ -4699,7 +4669,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0000366
 name: dermomyotome 26
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001874 ! somite 26
 relationship: ends_at CS17 ! CS17
@@ -4710,7 +4679,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0000367
 name: dermomyotome 27
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001875 ! somite 27
 relationship: ends_at CS17 ! CS17
@@ -4721,7 +4689,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0000368
 name: dermomyotome 28
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001876 ! somite 28
 relationship: ends_at CS17 ! CS17
@@ -4742,7 +4709,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0000370
 name: dermomyotome 30
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001878 ! somite 30
 relationship: ends_at CS17 ! CS17
@@ -4753,7 +4719,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0000371
 name: dermomyotome 31
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001879 ! somite 31
 relationship: ends_at CS17 ! CS17
@@ -4764,7 +4729,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0000372
 name: dermomyotome 32
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001880 ! somite 32
 relationship: ends_at CS17 ! CS17
@@ -4775,7 +4739,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0000373
 name: dermomyotome 33
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001881 ! somite 33
 relationship: ends_at CS17 ! CS17
@@ -4786,7 +4749,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0000374
 name: dermomyotome 34
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001882 ! somite 34
 relationship: ends_at CS17 ! CS17
@@ -4797,7 +4759,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0000375
 name: dermomyotome 35
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001883 ! somite 35
 relationship: ends_at CS17 ! CS17
@@ -4808,7 +4769,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0000376
 name: dermomyotome 36
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001884 ! somite 36
 relationship: ends_at CS17 ! CS17
@@ -4819,7 +4779,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0000377
 name: dermomyotome 37
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001885 ! somite 37
 relationship: ends_at CS17 ! CS17
@@ -4830,7 +4789,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0000378
 name: dermomyotome 38
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001886 ! somite 38
 relationship: ends_at CS17 ! CS17
@@ -4841,7 +4799,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0000379
 name: dermomyotome 39
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0000214 ! dermomyotome
 relationship: develops_from EHDAA2:0001887 ! somite 39
 relationship: ends_at CS17 ! CS17
@@ -8755,7 +8712,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0000912
 name: lateral lingual swelling associated mesenchyme
 namespace: human_developmental_anatomy
-is_a: AEO:0000145 ! mesenchymal tissue
 is_a: AEO:0000146 ! dense mesenchyme tissue
 relationship: develops_from EHDAA2:0000034 ! 1st arch mandibular mesenchyme
 relationship: ends_at CS18 ! CS18
@@ -9983,7 +9939,6 @@ id: EHDAA2:0001056
 name: mammary gland
 namespace: human_developmental_anatomy
 is_a: AEO:0000097 ! ducted gland
-is_a: CARO:0000055 ! multi-tissue structure
 relationship: ends_at CS20 ! CS20
 relationship: part_of EHDAA2:0000837 ! integumental system gland
 relationship: part_of EHDAA2:0002225 ! exocrine glandular system
@@ -10204,7 +10159,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0001083
 name: median lingual swelling associated mesenchyme
 namespace: human_developmental_anatomy
-is_a: AEO:0000145 ! mesenchymal tissue
 is_a: AEO:0000146 ! dense mesenchyme tissue
 relationship: develops_from EHDAA2:0000034 ! 1st arch mandibular mesenchyme
 relationship: ends_at CS18 ! CS18
@@ -12120,7 +12074,6 @@ name: ovary
 namespace: human_developmental_anatomy
 is_a: AEO:0000098 ! ductless gland
 is_a: AEO:0000176 ! female anatomical structure
-is_a: CARO:0000055 ! multi-tissue structure
 relationship: ends_at CS20 ! CS20
 relationship: part_of EHDAA2:0000506 ! female reproductive system
 relationship: part_of EHDAA2:0002224 ! endocrine glandular system
@@ -12333,7 +12286,6 @@ name: pancreas dorsal primordium
 namespace: human_developmental_anatomy
 is_a: AEO:0000097 ! ducted gland
 is_a: AEO:0000171 ! primordium
-is_a: CARO:0000055 ! multi-tissue structure
 relationship: ends_at CS16 ! CS16
 relationship: part_of EHDAA2:0001382 ! pancreas primordium
 relationship: starts_at CS12 ! CS12
@@ -13346,7 +13298,6 @@ id: EHDAA2:0001539
 name: allantois primordial germ cells
 namespace: human_developmental_anatomy
 is_a: AEO:0000152 ! migrating mesenchyme population
-is_a: AEO:0000217 ! migrating developing tissue
 is_a: AEO:0001020 ! reproductive cell population
 relationship: develops_from EHDAA2:0001541 ! yolk sac primordial germ cells
 relationship: ends_at CS11 ! CS11
@@ -16053,8 +16004,6 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0001849
 name: somite 01
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003437 ! head somite
 relationship: develops_from EHDAA2:0002108 ! unsegmented head paraxial mesenchyme
 relationship: ends_at CS09 ! CS09
@@ -16065,8 +16014,6 @@ relationship: starts_at CS09 ! CS09
 id: EHDAA2:0001850
 name: somite 02
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003437 ! head somite
 relationship: develops_from EHDAA2:0002108 ! unsegmented head paraxial mesenchyme
 relationship: ends_at CS09 ! CS09
@@ -16077,8 +16024,6 @@ relationship: starts_at CS09 ! CS09
 id: EHDAA2:0001851
 name: somite 03
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003437 ! head somite
 relationship: develops_from EHDAA2:0002108 ! unsegmented head paraxial mesenchyme
 relationship: ends_at CS10 ! CS10
@@ -16089,8 +16034,6 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0001852
 name: somite 04
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003437 ! head somite
 relationship: develops_from EHDAA2:0002108 ! unsegmented head paraxial mesenchyme
 relationship: ends_at CS10 ! CS10
@@ -16101,8 +16044,6 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0001853
 name: somite 05
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS10 ! CS10
@@ -16113,8 +16054,6 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0001854
 name: somite 06
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS10 ! CS10
@@ -16125,8 +16064,6 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0001855
 name: somite 07
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS10 ! CS10
@@ -16137,8 +16074,6 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0001856
 name: somite 08
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS10 ! CS10
@@ -16149,8 +16084,6 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0001857
 name: somite 09
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS10 ! CS10
@@ -16161,8 +16094,6 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0001858
 name: somite 10
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS10 ! CS10
@@ -16173,8 +16104,6 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0001859
 name: somite 11
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS10 ! CS10
@@ -16185,8 +16114,6 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0001860
 name: somite 12
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS10 ! CS10
@@ -16197,8 +16124,6 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0001861
 name: somite 13
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS11 ! CS11
@@ -16209,8 +16134,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0001862
 name: somite 14
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS11 ! CS11
@@ -16221,8 +16144,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0001863
 name: somite 15
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS11 ! CS11
@@ -16233,8 +16154,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0001864
 name: somite 16
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS11 ! CS11
@@ -16245,8 +16164,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0001865
 name: somite 17
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS11 ! CS11
@@ -16257,8 +16174,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0001866
 name: somite 18
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS11 ! CS11
@@ -16269,8 +16184,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0001867
 name: somite 19
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS11 ! CS11
@@ -16281,8 +16194,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0001868
 name: somite 20
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS11 ! CS11
@@ -16293,8 +16204,6 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0001869
 name: somite 21
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS12 ! CS12
@@ -16305,8 +16214,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0001870
 name: somite 22
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS12 ! CS12
@@ -16317,8 +16224,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0001871
 name: somite 23
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS12 ! CS12
@@ -16329,8 +16234,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0001872
 name: somite 24
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS12 ! CS12
@@ -16341,8 +16244,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0001873
 name: somite 25
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS12 ! CS12
@@ -16353,8 +16254,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0001874
 name: somite 26
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS12 ! CS12
@@ -16365,8 +16264,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0001875
 name: somite 27
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS12 ! CS12
@@ -16377,8 +16274,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0001876
 name: somite 28
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS12 ! CS12
@@ -16389,8 +16284,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0001877
 name: somite 29
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS12 ! CS12
@@ -16401,8 +16294,6 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0001878
 name: somite 30
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS13 ! CS13
@@ -16413,8 +16304,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0001879
 name: somite 31
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS13 ! CS13
@@ -16425,8 +16314,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0001880
 name: somite 32
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS13 ! CS13
@@ -16437,8 +16324,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0001881
 name: somite 33
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS13 ! CS13
@@ -16449,8 +16334,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0001882
 name: somite 34
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS13 ! CS13
@@ -16461,8 +16344,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0001883
 name: somite 35
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS13 ! CS13
@@ -16473,8 +16354,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0001884
 name: somite 36
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS13 ! CS13
@@ -16485,8 +16364,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0001885
 name: somite 37
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS13 ! CS13
@@ -16497,8 +16374,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0001886
 name: somite 38
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS13 ! CS13
@@ -16509,8 +16384,6 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0001887
 name: somite 39
 namespace: human_developmental_anatomy
-is_a: AEO:0000119 ! epithelial vesicle
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: EHDAA2:0003438 ! trunk somite
 relationship: develops_from EHDAA2:0002094 ! trunk and cervical paraxial mesoderm
 relationship: ends_at CS13 ! CS13
@@ -21029,14 +20902,12 @@ is_a: CARO:0000069 ! multilaminar epithelium
 id: EHDAA2:0003437
 name: head somite
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0001015 ! somite
 
 [Term]
 id: EHDAA2:0003438
 name: trunk somite
 namespace: human_developmental_anatomy
-is_a: AEO:0000132 ! transitional anatomical structure
 is_a: AEO:0001015 ! somite
 
 [Term]
@@ -24882,7 +24753,6 @@ id: EHDAA2:0004434
 name: neurohypohysial region
 namespace: human_developmental_anatomy
 is_a: CARO:0000068 ! columnar epithelium
-is_a: CARO:0000073 ! unilaminar epithelium
 relationship: develops_from EHDAA2:0004435 ! early neurohypohysial region
 relationship: ends_at CS14 ! CS14
 relationship: part_of EHDAA2:0001471 ! pituitary
@@ -27374,7 +27244,7 @@ relationship: starts_at CS19 ! CS19
 [Term]
 id: EHDAA2:0004727
 name: trunk and cervical sclerotome
-namespace: http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 is_a: AEO:0000212 ! sclerotome
 created_by: jonathanbard
 creation_date: 2012-05-30T02:35:57Z
@@ -27581,12 +27451,12 @@ id: encloses
 name: encloses
 
 [Typedef]
-id: ends_at
-name: ends_at
-
-[Typedef]
 id: endStage
 name: endStage
+
+[Typedef]
+id: ends_at
+name: ends_at
 
 [Typedef]
 id: has_part
@@ -27607,12 +27477,12 @@ name: part_of
 is_transitive: true
 
 [Typedef]
-id: starts_at
-name: starts_at
-
-[Typedef]
 id: startStage
 name: startStage
+
+[Typedef]
+id: starts_at
+name: starts_at
 
 [Typedef]
 id: surrounds
