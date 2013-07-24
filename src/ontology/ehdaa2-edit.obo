@@ -1,11 +1,10 @@
 format-version: 1.2
-date: 04:07:2013 20:21
+date: 24:07:2013 20:23
 saved-by: jonathanbard
-auto-generated-by: OBO-Edit 2.1.1-beta7
+auto-generated-by: OBO-Edit 2.2
 default-namespace: anatomical_entity_ontology
 remark: Jonathon Bard Human Ontology
 remark: this version corrects the namespace and includes some flybase alt_IDs
-ontology: ehdaa2
 
 [Term]
 id: AEO:0000013
@@ -491,7 +490,7 @@ name: groove
 namespace: http\://www.xspan.org/obo.owl#
 alt_id: UBERON:0006846
 alt_id: ZFA:0001690
-def: "A furrow or an incomplete tube." [AEO:JB]
+def: "The exposed  surface of a furrow or an incomplete tube." [AEO:JB]
 is_a: CARO:0000010 ! anatomical surface
 
 [Term]
@@ -2211,7 +2210,6 @@ relationship: starts_at CS09 ! CS09
 id: EHDAA2:0000009
 name: 1st arch groove ectoderm
 namespace: human_developmental_anatomy
-is_a: AEO:0000161 ! groove
 is_a: CARO:0000073 ! unilaminar epithelium
 relationship: develops_from EHDAA2:0001968 ! surface ectoderm
 relationship: ends_at CS14 ! CS14
@@ -2362,7 +2360,6 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0000046
 name: 1st arch maxillary-mandibular groove ectoderm
 namespace: human_developmental_anatomy
-is_a: AEO:0000161 ! groove
 is_a: CARO:0000073 ! unilaminar epithelium
 relationship: develops_from EHDAA2:0001968 ! surface ectoderm
 relationship: ends_at CS15 ! CS15
@@ -2405,7 +2402,7 @@ relationship: starts_at CS10 ! CS10
 id: EHDAA2:0000055
 name: 2nd arch ectoderm
 namespace: human_developmental_anatomy
-is_a: AEO:0000161 ! groove
+is_a: CARO:0000073 ! unilaminar epithelium
 relationship: develops_from EHDAA2:0001968 ! surface ectoderm
 relationship: ends_at CS16 ! CS16
 relationship: part_of EHDAA2:0000050 ! 2nd arch
@@ -2438,7 +2435,7 @@ relationship: starts_at CS12 ! CS12
 id: EHDAA2:0000061
 name: 2nd arch endoderm
 namespace: human_developmental_anatomy
-is_a: AEO:0000161 ! groove
+is_a: CARO:0000073 ! unilaminar epithelium
 relationship: develops_from EHDAA2:0001457 ! early pharyngeal arch endoderm
 relationship: ends_at CS16 ! CS16
 relationship: part_of EHDAA2:0000050 ! 2nd arch
@@ -2501,7 +2498,7 @@ relationship: starts_at CS13 ! CS13
 id: EHDAA2:0000072
 name: 3rd arch ectoderm
 namespace: human_developmental_anatomy
-is_a: AEO:0000161 ! groove
+is_a: CARO:0000073 ! unilaminar epithelium
 relationship: develops_from EHDAA2:0001968 ! surface ectoderm
 relationship: ends_at CS16 ! CS16
 relationship: part_of EHDAA2:0000069 ! 3rd arch
@@ -2534,7 +2531,7 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0000077
 name: 3rd arch pouch endoderm
 namespace: human_developmental_anatomy
-is_a: AEO:0000161 ! groove
+is_a: CARO:0000073 ! unilaminar epithelium
 relationship: develops_from EHDAA2:0001457 ! early pharyngeal arch endoderm
 relationship: ends_at CS15 ! CS15
 relationship: part_of EHDAA2:0000069 ! 3rd arch
@@ -21890,7 +21887,7 @@ relationship: starts_at CS14 ! CS14
 id: EHDAA2:0004032
 name: 4th arch ectoderm
 namespace: human_developmental_anatomy
-is_a: AEO:0000161 ! groove
+is_a: CARO:0000073 ! unilaminar epithelium
 relationship: develops_from EHDAA2:0001968 ! surface ectoderm
 relationship: ends_at CS16 ! CS16
 relationship: part_of EHDAA2:0000086 ! 4th arch
@@ -21901,7 +21898,7 @@ relationship: starts_at CS11 ! CS11
 id: EHDAA2:0004033
 name: 4th arch endoderm
 namespace: human_developmental_anatomy
-is_a: AEO:0000161 ! groove
+is_a: CARO:0000073 ! unilaminar epithelium
 relationship: develops_from EHDAA2:0001457 ! early pharyngeal arch endoderm
 relationship: ends_at CS16 ! CS16
 relationship: part_of EHDAA2:0000086 ! 4th arch
@@ -27561,48 +27558,67 @@ creation_date: 2013-01-09T04:29:18Z
 [Typedef]
 id: attached_to
 name: attached_to
-xref: RO:0002371 ! attached to
+
+[Typedef]
+id: branch_of
+name: branch_of
+
+[Typedef]
+id: derives_from
+name: derives_from
 
 [Typedef]
 id: develops_from
 name: develops_from
 is_transitive: true
-xref: RO:0002202
 
 [Typedef]
 id: develops_in
 name: develops_in
-xref: RO:0002226
+
+[Typedef]
+id: encloses
+name: encloses
 
 [Typedef]
 id: ends_at
 name: ends_at
-xref: BFO:0000069 ! ceases to exist during
+
+[Typedef]
+id: endStage
+name: endStage
 
 [Typedef]
 id: has_part
 name: has_part
 is_transitive: true
-xref: BFO:0000051
+
+[Typedef]
+id: has_start
+name: has_start
 
 [Typedef]
 id: located_in
 name: located_in
-xref: RO:0001025
 
 [Typedef]
 id: part_of
 name: part_of
 is_transitive: true
-xref: BFO:0000050
 
 [Typedef]
 id: starts_at
 name: starts_at
-xref: BFO:0000068 ! begins to exist during
+
+[Typedef]
+id: startStage
+name: startStage
 
 [Typedef]
 id: surrounds
 name: surrounds
-xref: RO:0002221 ! surrounds
+
+[Typedef]
+id: type
+name: type
 
