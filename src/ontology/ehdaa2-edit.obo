@@ -5,6 +5,7 @@ auto-generated-by: OBO-Edit 2.2
 default-namespace: anatomical_entity_ontology
 remark: Jonathon Bard Human Ontology
 remark: this version corrects the namespace and includes some flybase alt_IDs
+ontology: ehdaa2
 
 [Term]
 id: AEO:0000013
