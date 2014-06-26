@@ -26173,23 +26173,18 @@ creation_date: 2013-01-09T04:29:18Z
 [Typedef]
 id: attached_to
 name: attached_to
-
-[Typedef]
-id: branch_of
-name: branch_of
-
-[Typedef]
-id: derives_from
-name: derives_from
+xref: RO:0002371
 
 [Typedef]
 id: develops_from
 name: develops_from
 is_transitive: true
+xref: RO:0002202
 
 [Typedef]
 id: develops_in
 name: develops_in
+xref: RO:0002226
 
 [Typedef]
 id: encloses
@@ -26201,21 +26196,15 @@ name: ends_at
 xref: RO:0002497
 
 [Typedef]
-id: endStage
-name: endStage
-
-[Typedef]
 id: has_part
 name: has_part
 is_transitive: true
-
-[Typedef]
-id: has_start
-name: has_start
+xref: BFO:0000051
 
 [Typedef]
 id: located_in
 name: located_in
+xref: RO:0001025
 
 [Typedef]
 id: part_of
@@ -26229,14 +26218,7 @@ name: starts_at
 xref: RO:0002496
 
 [Typedef]
-id: startStage
-name: startStage
-
-[Typedef]
 id: surrounds
 name: surrounds
-
-[Typedef]
-id: type
-name: type
+xref: RO:0002221 ! surrounds
 
