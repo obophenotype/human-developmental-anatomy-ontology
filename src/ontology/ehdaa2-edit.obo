@@ -26198,6 +26198,7 @@ name: encloses
 [Typedef]
 id: ends_at
 name: ends_at
+xref: RO:0002497
 
 [Typedef]
 id: endStage
@@ -26220,10 +26221,12 @@ name: located_in
 id: part_of
 name: part_of
 is_transitive: true
+xref: BFO:0000050
 
 [Typedef]
 id: starts_at
 name: starts_at
+xref: RO:0002496
 
 [Typedef]
 id: startStage
