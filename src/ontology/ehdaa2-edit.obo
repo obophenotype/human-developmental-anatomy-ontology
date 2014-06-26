@@ -8985,7 +8985,6 @@ id: EHDAA2:0000994
 name: limb system
 namespace: human_developmental_anatomy
 is_a: CARO:0000011 ! anatomical system
-relationship: part_of EHDAA2:0000002 ! human embryo
 relationship: starts_at CS12 ! CS12
 
 [Term]
@@ -11275,7 +11274,6 @@ id: EHDAA2:0001330
 name: organ system group
 namespace: human_developmental_anatomy
 is_a: CARO:0000011 ! anatomical system
-relationship: part_of EHDAA2:0000002 ! human embryo
 relationship: starts_at CS06a ! CS06a
 
 [Term]
@@ -26048,7 +26046,6 @@ id: EHDAA2:0004731
 name: coelomic cavity
 namespace: human_developmental_anatomy
 is_a: CARO:0000055 ! multi-tissue structure
-relationship: part_of EHDAA2:0000002 ! human embryo
 relationship: starts_at CS09 ! CS09
 created_by: jonathanbard
 creation_date: 2012-09-11T09:53:16Z
