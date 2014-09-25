@@ -24516,7 +24516,6 @@ id: EHDAA2:0004523
 name: heart associated veins
 namespace: human_developmental_anatomy
 is_a: CARO:0000054 ! anatomical group
-is_a: HsapDv:0000027 ! HsapDv:0000027
 relationship: part_of EHDAA2:0004144 ! heart-associated blood vessels
 relationship: part_of EHDAA2:0004543 ! body veins
 relationship: starts_at HsapDv:0000016 ! HsapDv:0000016
