@@ -2013,7 +2013,6 @@ is_a: CS:0 ! Carnegie stage
 id: HsapDv:0000007
 name: CS03
 namespace: carnegie_stage
-is_a: CARO:0000054 ! anatomical group
 is_a: CS:0 ! Carnegie stage
 
 [Term]
