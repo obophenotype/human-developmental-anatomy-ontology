@@ -10175,7 +10175,7 @@ relationship: part_of EHDAA2:0004394 ! pons
 relationship: starts_at HsapDv:0000023 ! HsapDv:0000023
 
 [Term]
-id: EHDAA2:0001161416
+id: EHDAA2:0001161
 name: pons sulcus limitans
 namespace: human_developmental_anatomy
 is_a: AEO:0000161 ! groove
