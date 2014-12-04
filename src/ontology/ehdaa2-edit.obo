@@ -721,7 +721,7 @@ synonym: "mucosa" RELATED []
 is_a: CARO:0000055 ! multi-tissue structure
 
 [Term]
-id: AEO:000020
+id: AEO:0000493
 name: fat tissue
 namespace: http://www.xspan.org/obo.owl#
 def: "Tissue that is predominantly made of fat cells." [AEO:JB]
@@ -1083,7 +1083,7 @@ is_a: AEO:0000125 ! developing anatomical structure
 [Term]
 id: AEO:0001020
 name: reproductive cell population
-namespace: 'http\://www.xspan.org/obo.owl#
+namespace: http://www.xspan.org/obo.owl#
 def: "A population of cells that are predominantly immature or mature germ cells." [AEO:JB]
 is_a: CARO:0000043 ! simple tissue
 relationship: has_part CL:0000586 ! germ cell
@@ -10386,6 +10386,7 @@ relationship: ends_at HsapDv:0000027 ! CS20
 [Term]
 id: EHDAA2:0001118
 name: head mesenchyme from mesoderm and endoderm
+namespace: human_developmental_anatomy
 is_a: AEO:0000146 ! dense mesenchyme tissue
 relationship: develops_from EHDAA2:0001128 ! mesoderm
 relationship: develops_from EHDAA2:0001493 ! prechordal plate
@@ -10644,6 +10645,7 @@ relationship: ends_at HsapDv:0000027 ! CS20
 [Term]
 id: EHDAA2:0001156
 name: pons marginal layer
+namespace: human_developmental_anatomy
 is_a: AEO:0001011 ! neuronal white matter
 relationship: develops_from EHDAA2:0001643 ! rhombomere 01 marginal layer
 relationship: develops_from EHDAA2:0001653 ! rhombomere 02 marginal layer
@@ -13627,6 +13629,7 @@ relationship: starts_at HsapDv:0000016 ! HsapDv:0000016
 [Term]
 id: EHDAA2:0001569
 name: pro-rhombomere d roof plate
+namespace: human_developmental_anatomy
 is_a: CARO:0000073 ! unilaminar epithelium
 relationship: develops_from EHDAA2:0000592 ! brain neural ectoderm
 relationship: develops_from EHDAA2:0001550 ! pro-rhombomere a roof plate
@@ -22377,6 +22380,7 @@ relationship: ends_at HsapDv:0000027 ! CS20
 [Term]
 id: EHDAA2:0004084
 name: oropharynx associated mesenchyme
+namespace: human_developmental_anatomy
 is_a: AEO:0000146 ! dense mesenchyme tissue
 relationship: develops_from EHDAA2:0001459 ! pharyngeal arch associated mesenchyme
 relationship: part_of EHDAA2:0004082 ! oropharynx
@@ -25422,6 +25426,7 @@ relationship: ends_at HsapDv:0000027 ! CS20
 [Term]
 id: EHDAA2:0004488
 name: synencephalon marginal layer
+namespace: human_developmental_anatomy
 is_a: AEO:0001011 ! neuronal white matter
 relationship: develops_from EHDAA2:0004487 ! synencephalon mantle layer
 relationship: part_of EHDAA2:0004472 ! synencephalon
