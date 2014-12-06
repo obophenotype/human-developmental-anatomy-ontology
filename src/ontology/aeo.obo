@@ -1,12 +1,12 @@
 format-version: 1.2
-data-version: releases/2013-07-04
+data-version: releases/2014-12-05
 date: 04:07:2013 20:24
 saved-by: jonathanbard
 auto-generated-by: OBO-Edit 2.1.1-beta7
 default-namespace: anatomical_entity_ontology
 remark: this version corrects the namespace and includes some flybase alt_IDs
 ontology: aeo
-property_value: typeref "anatomical_entity_ontology"
+property_value: typeref "anatomical_entity_ontology" xsd:string
 
 [Term]
 id: AEO:0000013
@@ -792,15 +792,6 @@ synonym: "mucosa" RELATED []
 is_a: CARO:0000055 ! multi-tissue structure
 
 [Term]
-id: AEO:000020
-name: fat tissue
-namespace: http://www.xspan.org/obo.owl#
-alt_id: EHDAA2:0003120
-def: "Tissue that is predominantly made of fat cells." [AEO:JB]
-is_a: CARO:0000043 ! simple tissue
-relationship: has_part CL:0000136 ! fat cell
-
-[Term]
 id: AEO:0000200
 name: regenerating anatomical structure
 namespace: http://www.xspan.org/obo.owl#
@@ -999,6 +990,15 @@ name: enclosed anatomical space
 namespace: http://www.xspan.org/obo.owl#
 def: "An anatomical space with no opening to another space or to the exterior." [JB:AEO]
 is_a: CARO:0000005 ! anatomical space
+
+[Term]
+id: AEO:0000493
+name: fat tissue
+namespace: http://www.xspan.org/obo.owl#
+alt_id: EHDAA2:0003120
+def: "Tissue that is predominantly made of fat cells." [AEO:JB]
+is_a: CARO:0000043 ! simple tissue
+relationship: has_part CL:0000136 ! fat cell
 
 [Term]
 id: AEO:0001000
