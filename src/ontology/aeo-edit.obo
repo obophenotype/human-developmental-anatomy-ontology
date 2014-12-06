@@ -791,7 +791,7 @@ synonym: "mucosa" RELATED []
 is_a: CARO:0000055 ! multi-tissue structure
 
 [Term]
-id: AEO:000020
+id: AEO:0000493
 name: fat tissue
 namespace: http\://www.xspan.org/obo.owl#
 alt_id: EHDAA2:0003120
