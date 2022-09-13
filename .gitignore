@@ -1,0 +1,11 @@
+
+.DS_Store
+src/ontology/aeo-metadata.txt
+src/ontology/aeo-reasoner-report.txt
+src/ontology/aeo.json
+src/ontology/aeo.owx
+src/ontology/ehdaa2-metadata.txt
+src/ontology/ehdaa2-reasoner-report.txt
+src/ontology/ehdaa2.json
+src/ontology/ehdaa2.owx
+src/ontology/releases/2022-09-13/
