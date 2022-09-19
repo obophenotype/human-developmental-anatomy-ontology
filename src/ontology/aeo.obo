@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2014-12-05
+data-version: releases/2022-09-13
 date: 04:07:2013 20:24
 saved-by: jonathanbard
 auto-generated-by: OBO-Edit 2.1.1-beta7
@@ -278,7 +278,7 @@ is_a: AEO:0000114 ! epithelial tube
 relationship: has_part CL:0000068 ! duct epithelial cell
 
 [Term]
-id: AEO:0000119f
+id: AEO:0000119
 name: epithelial vesicle
 namespace: http://www.xspan.org/obo.owl#
 alt_id: EHDAA2:0003119
@@ -1138,7 +1138,7 @@ id: AEO:0001015
 name: somite
 namespace: http://www.xspan.org/obo.owl#
 def: "An epithelial ball that forms from paraxial mesoderm." [JB:AEO]
-is_a: AEO:0000119f ! epithelial vesicle
+is_a: AEO:0000119 ! epithelial vesicle
 
 [Term]
 id: AEO:0001016
